@@ -884,4 +884,534 @@ I am an ML Engineer and I appeared in multiple Data Science interviews. Here are
 
 
 
+PART-2
+
+ARTIFICIAL INTELLIGENCE
+
+
+UNIT I
+
+Introduction: AI problems, foundation of AI and history of AI.
+
+Intelligent Agents: Agents and Environments, the concept of rationality, the na
+ture of environments, structure of agents.
+
+Problem solving agents:Well defined problems and Solutions, problem formula
+tion, Example problems- 8-puzzle problem, Water jug problem.
+
+UNIT II
+
+Searching: Searching for solutions, uniformed search strategies– Breadth first
+search, depth first Search.
+
+Heuristic Search: Search with partial information, Informed search strategies,
+Hill climbing, Best First search, A* Algorithm, Problem Reduction-AO* Algorithms.
+
+Adversarial Search: Games, mini-max algorithm, Problem in Game playing,
+Alpha-Beta pruning, Evaluation functions.
+
+UNIT III
+
+Representation of Knowledge: Weak Slot and filler structures, Semantic nets
+frames and frame systems.
+
+Representing knowledge using rules: Procedural versus declarative knowledge,
+Logic programming, Forward vs Backward reasoning.
+
+Knowledge Representation Issues: Representation and mapping, Approaches in
+knowledge representation, Issues in knowledge representation.
+
+UNIT IV
+
+Logic concepts: Predicate Logic, Propositional vs. Predicate Logic, unification &
+lifts forward chaining, Backward chaining, Resolution.
+
+Learning: Learning from observation, Explanation based learning, Statistical Learn
+ing methods, Reinforcement Learning.
+
+Expert Systems: Architecture of expert systems, Roles of expert systems, Knowl
+edge Acquisition, Typical expert systems– MYCIN, DART, Expert systems shells.
+
+
+
+
+
+
+
+
+
+
+
+MACHINE LEARNING
+
+UNIT I
+
+Introduction to Machine Learning: Evolution of Machine Learning, Paradigms
+for ML, Types of Data, Stages in Machine Learning, Data Acquisition, Feature En
+gineering: Feature Selection and Feature extraction, Data Representation, Model
+Selection, Model Learning, Model Evaluation, Model Prediction, Search and Learn
+ing, Data Sets.
+
+Nearest Neighbor-Based Models: Introduction to Proximity Measures, Distance
+Measures, K-Nearest Neighbor Classifier, Approximate Nearest Neighbor (ANN), Per
+formance of Classifiers, Performance of Regression Algorithms.
+
+
+UNIT II
+
+Models Based on Decision Trees Decision Trees for Classification, Impurity
+Measures, Properties, Regression Based on Decision Trees, Bias–Variance Trade-off.
+
+Ensemble Techniques: Bagging, Boosting, Stacking, Random Forests, Gradient
+Boosting.
+
+The Bayes Classifier: Introduction to the Bayes Classifier, Naive Bayes Classi
+fier, Bayesian Neural Network.
+
+
+UNIT III
+Linear Discriminants for Machine Learning: : Introduction to Linear Dis
+criminants, Perceptron Classifier, Support Vector Machines, Linearly Non-Separable
+Case, Non-linear SVM, Kernel Trick, Logistic Regression, Linear Regression.
+
+Artificial Neural Network: : Multi-Layer Perceptrons (MLPs), Backpropagation
+for Training an MLP, Activation Functions.
+
+UNIT IV
+Clustering: Introduction to Clustering, Partitioning of Data, Density-Based Clus
+tering: DBSCAN, HDBSCAN, Hierarchical Clustering: Agglomerative Clustering,
+Divisive Clustering, K-Means Clustering: K-Means++, Mini-Batch K-Means, Fuzzy
+C-Means Clustering, Gaussian Mixture Models (GMMs), Expectation-Maximization
+Clustering, Spectral Clustering, Challenges in High-Dimensional Clustering, Integra
+tion of Clustering with Neural Networks.
+
+
+
+
+AI&ML LAB
+
+
+
+Task 1: Data Preprocessing
+
+1. Use ML libraries such as numpy, pandas, matplotlib, etc., for data prepro
+cessing and visualization.
+2. Normalize or standardize your data, detailing the techniques used.
+3. Encode categorical variables in your dataset appropriately.
+4. Apply Principal Component Analysis (PCA) to reduce the dimensionality of
+your dataset.
+5. Visualize the results of PCA to assess the separability of different classes in
+your data.
+
+Task 2: Heuristic Search
+
+1. Implement a python program for A* algorithm.
+2. Implement a python program for AO* algorithm. (Ex: find the shortest
+path)
+
+Task 3: Decision Trees and Model Explainability
+1. Build a Decision Tree for a complex classification problem.
+2. Perform hyperparameter tuning and visualize the tree structure.
+3. Implement SHAP (SHapley Additive exPlanations) values to explain feature
+importance and model predictions.
+
+Task 4: K-Nearest Neighbors with Hyperparameter Optimization
+
+1. Apply KNN to a classification problem and experiment with various distance
+metrics (e.g., Euclidean, Manhattan, Minkowski).
+2. Conduct hyperparameter optimization using grid search or random search
+to identify the best K value and distance metric.
+3. Evaluate using precision, recall, F1-score, and confusion matrix and compare
+results with optimized parameters.
+
+Task 5: Ensemble Methods- Random Forest and Gradient Boosting
+
+1. Train a Random Forest model for both classification and regression problems,
+analyzing feature importance.
+2. Implement Gradient Boosting and compare its performance with Random
+Forest.
+3. Explore the impact of ensemble techniques and compare results in terms of
+accuracy and generalization.
+
+Task 6: Na¨ıve Bayes for Text Classification with NLP Processing
+
+1. Preprocess text data with tokenization, stop-word removal, stemming, and
+vectorization using TF-IDF.
+2. Train a Na¨ıve Bayes classifier and evaluate performance metrics.
+3. Analyze and discuss where the model performs well or struggles and refine
+preprocessing for improved performance.
+
+Task 7: Support Vector Machines (SVM) with Kernel Trick
+
+1. Train an SVM classifier and experiment with different kernel functions (lin
+ear, polynomial, RBF).
+2. Visualize decision boundaries and evaluate model performance under each
+kernel setting.
+3. Compare the results and discuss the suitability of kernels for different types
+of data.
+
+Task 8: Linear and Logistic Regression Analysis
+
+1. Build a Linear Regression model, analyze residuals, and assess model as
+sumptions.
+(linearity, homoscedasticity). 2. Apply Logistic Regression for binary classifi
+cation, evaluate model fit, and interpret model coefficients.
+3. Plot the regression line or decision boundary and compare model accuracy.
+
+Task 9: Multi-layer Perceptron (MLP) with Early Stopping and Regularization
+
+ 1.Train a Multi-layer Perceptron for classification and explore different network
+architectures (number of layers and nodes).
+2. Apply early stopping, dropout, and L2L 2L2 regularization to prevent over
+fitting.
+3. Evaluate training and validation accuracy over epochs and analyze the im
+pact of regularization techniques.
+
+Task 10: Clustering Analysis with K-Means and DBSCAN
+
+1. Apply K-Means clustering on a dataset, determining the optimal Kusing the
+elbow method and silhouette score.
+2. Implement DBSCAN for density-based clustering and compare clustering
+results with K-Means.
+3. Evaluate clusters by measuring intra-cluster and inter-cluster distances and
+analyze the effectiveness of each clustering method.
+
+Task 11: Advanced Clustering with Hierarchical and Spectral Clustering.
+
+1. Use hierarchical clustering with different linkage criteria (single, complete,
+average) and visualize the resulting dendrogram.
+2. Apply spectral clustering for a high-dimensional dataset,
+analyzing the clustering structure. 3. Compare hierarchical and spectral clus
+tering techniques and discuss their suitability for complex data.
+
+Task 12: Expectation-Maximization Clustering for Gaussian Mixture Models
+
+1. Implement Gaussian Mixture Models (GMM)using the Expectation-Maximization
+algorithm on a multivariate dataset.
+2. Visualize clusters and analyze the convergence of the EM algorithm.
+3. Evaluate clustering performance using metrics like the Adjusted Rand Index
+and compare results with K-Means.
+
+
+
+
+
+DEEP LEARNING
+
+
+UNIT I
+
+Basics- Biological Neuron, Idea of computational units, McCulloch–Pitts unit and
+Thresholding logic, Linear Perceptron, Perceptron Learning Algorithm, Linear sepa
+rability, Convergence theorem for Perceptron Learning Algorithm.
+
+UNIT II
+
+Feed forward Networks: Multilayer Perceptron, Gradient Descent, Backpropaga
+tion, Empirical Risk Minimization, regularization, auto encoders.
+
+Deep Neural Networks: Difficulty of training deep neural networks, Greedy layer
+wise training.
+
+UNIT III
+
+Better Training of Neural Networks: Newer optimization methods for neu
+ral networks (Adagrad, adadelta, rmsprop, adam, NAG), second order methods for
+training, Saddle point problem in neural networks, Regularization methods (dropout,
+drop connect, batch normalization).
+
+Recurrent Neural Networks: Back propagation through time, Long Short-Term
+Memory, Gated Recurrent Units, Bidirectional LSTMs, Bidirectional RNNs.
+
+UNIT IV
+
+Convolutional Neural Networks: LeNet, AlexNet. Generative models: Restric
+tive Boltzmann Machines (RBMs), Introduction to MCMC and Gibbs Sampling,
+gradient computations in RBMs, Deep Boltzmann Machines.
+
+Recent trends: Variational Autoencoders, Transformers, GPT Applications: Vi
+sion, NLP, Speech.
+
+
+
+DEEP LEARNING LAB
+
+Task 1: Implement multi-layer perceptron algorithm for MNIST Handwritten Digit
+Classification.
+Task 2: Designaneuralnetworkfor classifying movie reviews (Binary Classification)
+using IMDB dataset.
+Task 3: Design a neural Network for classifying news wires (Multi class classifica
+tion) using Reuters dataset.
+Task 4: Design a neural network for predicting house prices using Boston Housing
+Price dataset.
+Task 5: Build a Convolution Neural Network for MNIST Handwritten Digit Clas
+sification.
+Task 6: Build a Convolution Neural Network for simple image (dogs and Cats)
+Classification
+Task 7: Use a pre-trained convolution neural network (VGG16) for image classificat
+Task 8: Implement one hoten coding of words or characters.
+Task 9: Implement word embeddings for IMDB dataset.
+Task 10: Implement a Recurrent Neural Network for IMDB Movie review classifi
+cation problem.
+
+
+NATURAL LANGUAGE PROCESSING
+
+UNIT I
+
+Introduction to Natural Language Processing and Word-Level Analysis:
+Origins and challenges of NLP, Regular Expressions, Word and Subword Tokeniza
+tion, Word Normalization, Lemmatization and Stemming, Sentence Segmentation,
+Minimum Edit Distance, Finite- State Automata, N-grams, Evaluating Language
+Models, Sampling, Generalization Vs Overfitting the training dataset, Smoothing,
+Interpolation and Backoff.
+
+UNIT II
+
+Context-Free Grammars and Syntactic Analysis: Constituency in Syntax,
+Context Free Grammars, Parse trees and Treebanks, Grammar Equivalence and Nor
+mal Forms, Conversion of CFGs to CNF (concept only, no algorithm derivation),
+Syntactic Ambiguity, CKY Parsing Algorithm Using Dynamic Programming, Evalu
+ating Parsers (Precision, Recall, F1– basic idea), shallow parsing, Head-finding rules
+and their role in converting phrase structure to dependency trees.
+
+UNIT III
+
+Semantics and Pragmatics: Need for meaning representation.
+
+First-Order Logic: Basics, Variables and Quantifiers, Lamda Notation, Inference.
+Syntax-Driven Semantic analysis, Semantic attachments.
+
+Introduction to Word Meaning and Senses: Word Senses, Relations between
+Senses, Thematic Roles, Selectional restrictions.
+
+Word Sense Disambiguation (WSD): Basics of WSD using Supervised, Dictio
+nary & Thesaurus, Bootstrapping methods, Word Similarity using Thesaurus and
+Distributional methods.
+
+UNIT IV
+
+Discourse Analysis and Lexical Analysis: Discourse segmentation, Centering
+theory and Coherence, Reference Phenomena, Anaphora Resolution using Hobbs and
+Centering Algorithm, Coreference Resolution, NLP tools and Resources: Porter Stem
+mer, Lemmatizer, Penn Treebank, Brill’s Tagger, WordNet, PropBank, FrameNet,
+Brown Corpus, British NationalCorpus(BNC).
+
+
+
+REINFORCEMENT LEARNING
+
+
+UNIT I
+
+The Reinforcement Learning Problem: Reinforcement Learning: Introduc
+tion and Motivation, Real-world Examples of Reinforcement Learning, Elements of
+Reinforcement Learning, Limitations and Scope of RL, Extended Example: Tic-Tac
+Toe, Summary of the RL Framework, History of Reinforcement Learning.
+
+UNIT II
+Multi-Armed Bandits: The n-Armed Bandit Problem, Action-Value Methods,
+Incremental Implementation, Tracking a Non-stationary Problem, Optimistic Initial
+Values, Upper-Confidence-Bound (UCB) Action Selection, Gradient Bandits, Asso-
+ciative Search (Contextual Bandits)
+
+UNIT III
+
+Finite Markov Decision Processes (MDPs): The Agent–Environment In
+terface, Goals and Rewards, Returns, Unified Notation for Episodic and Continuing
+Tasks, The Markov Property, Definition of Markov Decision Processes, Value Func
+tions, Optimal Value Functions, Optimality and Approximation.
+
+UNIT IV
+
+Monte Carlo Methods: Monte Carlo Prediction, Monte Carlo Estimation of Ac
+tion Values, Monte Carlo Control, Monte Carlo Control without Exploring Starts,
+Off-Policy Prediction via Importance Sampling, Incremental Implementation, Off
+Policy Monte Carlo Control, Importance Sampling on Truncated Returns.
+Applications and Case Studies: TD-Gammon, Samuel’s Checkers Player, The
+Acrobot, Elevator Dispatching, Dynamic Channel Allocation, Job-Shop Scheduling
+
+
+
+
+NEURAL NETWORKS & DEEP LEARNING
+
+UNIT I
+Biological Neurons vs. Artificial Neurons: PerceptronModelandLearn
+ing Algorithms-Single-layer and Multi-layer Perceptrons, Activation Functions:
+Sigmoid, Tanh, ReLU, Softmax.
+Feedforward Neural Networks (FNN): Forward and Backward Propa
+gation, Gradient Descent and Optimization Techniques, Loss Functions: Loss
+Function Notation, Loss Functions for Regression, Loss Functions for Classi
+f
+ication, Loss Functions for Reconstruction Hyperparameters: Learning Rate,
+Regularization, Momentum.
+
+UNIT II
+Deep Neural Networks (DNN): Architecture of DNNs, Training Deep Net
+works: Challenges and Solutions
+Optimization in Deep Learning: Stochastic Gradient Descent (SGD),
+Adam, RMSprop, Vanishing and Exploding Gradient Problems: Techniques to
+Mitigate- Batch Normalization, Weight Initialization, Hyper parameter Tuning
+and Model Selection
+UNIT III
+Introduction to CNNs: Convolution Operation, Filters/Kernels, Feature
+Maps, Architectures of CNNs: Pooling Layers, Padding, Stride, Fully Con
+nected Layers, Dropout in CNNs.
+Popular CNN Architectures: LeNet, AlexNet, VGG, ResNet, Applications
+of CNNs: Image Classification, Object Detection, Image Segmentation.
+Understanding RNNs: BasicArchitecture, Unrolling, Backpropagation Thr
+ough Time (BPTT), Long Short-Term Memory (LSTM) and Gated Recurrent
+Units (GRU): Internal Mechanisms, Gates in LSTM and GRU.
+UNIT IV
+Architecture of GANs:Generator and Discriminator, Applications of GANs:
+Image Generation, Data Augmentation.
+Attention Mechanisms and Transformers: Introduction to Attention in
+Deep Learning, Self-Attention, Transformer Models (e.g., BERT, GPT)
+Transfer Learning and Pre-trained Models: Fine-tuning of Pre-trained
+Networks (VGG, ResNet, BERT)
+
+
+
+NEURAL NETWORKS & DEEP LEARNING LABORATORY
+
+1. Implement asingle-layer perceptron to classify a linearly separable dataset,
+such as an AND or OR logic gate.
+2. Train a multi-layer perceptron with Sigmoid, Tanh, ReLU, and Softmax
+activation functions on a multi-class dataset, like the Iris dataset, and
+compare their performance.
+3. Apply forward and backward propagation on a feed forward neural net
+work to observe weight updates and loss reduction using a small regression
+dataset.
+4. Analze different loss functions (e.g., Mean Squared Error, Cross-Entropy
+Loss) by training neural networks on regression and classification datasets.
+
+5. Build a deep neural network and evaluate training difficulties like vanish
+ing gradients using a complex dataset, such as CIFAR-10.
+6. Compare optimization techniques like SGD, Adam, and RMSprop in
+terms of training speed and model accuracy on a deep learning model.
+7. Implement Batch Normalization and weight initialization techniques to
+stabilize gradient flow in a neural network during training.
+8. Visualize feature maps generated by convolutional layers using filters on
+an image dataset, such as MNIST.
+9. Train and evaluate popular CNN architectures (LeNet, AlexNet, VGG,
+ResNet) on an image classification dataset like CIFAR-10.
+10. Implement RNN and LSTM models to analyze their performance on se
+quence data, highlighting LSTM’s ability to handle long-term dependen
+cies.
+11. Build a Generative Adversarial Network (GAN) to generate synthetic
+images using a random noise vector and a real dataset like MNIST.
+12. Fine-tune pre-trained models like VGG, ResNet, or BERT on a new
+dataset to demonstrate improved performance in specific tasks.
+
+
+
+
+GENERATIVE AI MODELS AND PROMPT ENGINEERING
+
+UNIT I
+Introduction to Generative Models: Overview of Generative Models,
+Definition and types of generative models- Statistical models and neural
+network based models, Comparison with discriminative models, Prompting
+and prompt engineering, Generative AI project lifecycle.
+UNIT II
+Large Language Models (LLMs): Introduction to LLMs,Evolution of
+LLMs, Training and fine-tuning LLMs, Applications of LLMs: Text genera
+tion and NLP tasks, Ethical and social implications of LLMs. Multi Model
+LLMs: Open Source LLMs, Domain Specific LLMs, LLM agents, Smaller
+LLMs and Non- Transformer LLMs.
+UNIT III
+Transformer-based Generative Models: Introduction to Transform
+ers: Self attention mechanism Transformer architecture (Encoder-Decoder,
+GPT, BERT)
+Generative Pre-Trained Transformers(GPT): GPT, GPT-2, GPT
+3, and beyond Training techniques and challenges.
+Applications of Transformer-based Models: Textgenerationandcom
+pletion Language Translation Code generation.
+UNIT IV
+Prompt Engineering and Fine-Tuning: Role and Importance in Gen
+erative AI, Basics of Prompt Construction.
+Crafting Effective Prompts: Types of Prompts: Open-ended, Specific
+Techniques: Keyword Selection, Context Setting.
+Advanced Techniques: Zero-shot, One-shot, Few-shot Learning, Control
+ling Output: Temperature, Max Tokens, Iterative Refinement Customizing
+Prompts for Tasks: Text Generation, Code Generation, Image Generation,
+Domain-Specific Prompting, Designing and Testing Prompts, Evaluating and
+Improving Prompt Performance.
+Ethical Considerations: Bias, Misuse, and Responsible Prompting.
+
+
+
+
+ARTIFICIAL INTELLIGENCE FOR ROBOTICS
+
+UNIT I
+Foundation for Advanced Robotics and AI: Basic principle of robotics– AI distinguishing, Advanced robotics techniques, Development environment,
+and Robot control system- Soft real time control.
+Setting Up Robot: Robot anatomy, Software setup– Installing Python and
+ROS, Raspberry Pi3 setup, Hardware– Track assembling and Mounting, Arm
+assembly and wiring
+UNIT II
+Robot Design Process: Image recognition- training and development, Con
+volutions, Artificial neurons, Convolution neural networks, Usage of neural net
+works (NN)
+Robot Teaching: Task analysis, Teaching the robot arm– Action states,
+Reinforcement learning, Q-Learning, and Genetic algorithms.
+UNIT III
+Robot Speech Recognition: Speech to text, Mycroft- Hardware and Software
+setup.
+Avoiding the Stairs: Task analysis- SLAM, Navigation alternatives, NN
+training for navigation.
+UNIT IV
+Robot Planning: Decision tress, Entropy, One hot coding, Grid searching,
+A* algorithm
+Artificial Personality: Turing test, Simulation, State machine, Human be
+havior model, AI Robot integration, Robot emotion engine.
+
+
+
+ROBOTICS PROGRAMMING
+
+UNIT I
+
+Genealogy of Artificial Beings: EarlyAutomata, Industrial revolutions,
+Modern robotics, social robotics, Robotics futures and Trans-robotics.
+The Robot Operating System: Introduction, Key Features from the
+Core, Additional Useful Features, Linux for Robotics.
+Mathematical Building Blocks:
+Introduction, Basic Geometry and Linear Algebra, Geometric Transforma
+tions, Basic Probability, Derivatives, Basic Statistics.
+
+UNIT II
+
+Robots Making: Introduction, Sensing the world with sensors, Common
+Sensors in Robotics, Moving about with Actuators, Computer Vision in
+Robotics.
+Social Robots: Introduction, Cobots, Social Robots and Human–Robot
+Interaction, Conduct Research, Research Variables, Sampling, Reliability
+and Validity, Ethics: Ethical Principles in Research, Data, Analysis and
+Interpretation, Common Mistakes and Pitfalls
+
+UNIT III
+
+Managing the World Complexity: Introduction, Definitions, Linear
+Regression, Training Generalizable Models, Deep Neural Networks, Gra
+dient Back propagation, Convolutional Neural Network, Recurrent Neural
+Networks and their applications, Deep Reinforcement Learning and its ap
+plications.
+Safety of Robotic Systems: Introduction, Terms and Definitions, Indus
+trial Risk Assessment and Mitigation
+
+UNIT IV
+
+Control, Navigation and Path Planning: Introduction, MobileRobots,
+Controlling robots, Path Planning, Obstacle Avoidance.
+Localization and Mapping: Introduction, Robot Localization Problem,
+Robot Mapping Problem, Simultaneous Localization and Mapping.
+Multi-robot Systems: Introduction, Types of multi-robot systems, Swarm
+Programming, Deployment of Real-world swarm systems
+
+
+
+
 
