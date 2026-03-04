@@ -18,6 +18,23 @@ Most ML algorithms are matrix math under the hood.
 
 - Interview angle: "How would you evaluate a classifier with imbalanced data?"
 
+
+VERY IMP
+--------
+
+📌 Statistics & Probability
+
+1. What’s the difference between standard deviation and standard error, and when do we use each?
+2. Why is the Central Limit Theorem important in hypothesis testing?
+3. How do confidence intervals help interpret model predictions?
+4. Can a high correlation still mean there's no causation? Give a real-world example.
+5. What’s the intuition behind p-values, and why are they often misinterpreted?
+6. In what situations does the mean give misleading information compared to the median?
+7. What is heteroscedasticity, and why is it a problem in regression analysis?
+
+
+
+
 ⸻
 
 ✅ Calculus – Just the Essentials
@@ -66,6 +83,7 @@ For coding rounds:
 
 • YouTube: StatQuest (probability/stats), 3Blue1Brown (linear algebra & calculus), Gilbert Strang lectures (very good)
 • Practice: Derive gradients of simple models (linear regression, softmax) by hand.
+
 
 
 
