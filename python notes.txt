@@ -1,0 +1,277 @@
+only classes and abstract class present in python
+
+Interfaces not present in python
+
+
+Empty class 
+__________-
+ 
+class Book:
+	pass
+
+
+book1=Book()
+book2=Book()
+
+print(book1)
+print(book2)
+
+
+__init__
+
+wherever dependent on the instance then need to pass self(self is nothing but this in java)
+
+
+__str__ and __repr__ same like toString() in java
+
+
+__str__
+
+consumption of human
+
+
+__repr__
+
+technical representation of object
+
+
+
+Dunder Methods
+
+1.__str__
+2.__repr__
+
+
+
+
+
+class Book:
+	def __intit__(self,name):
+		self.name=name
+	def __repr(self,name):
+		return repr(self.name)
+
+
+book1=Book('Master Python')
+book2=Book('Master Java')
+
+print(book1)
+print(book2)
+
+
+Note:
+
+Python strings are in single quotes
+
+
+
+
+
+
+
+class Book:
+	def __intit__(self,name,price):
+		self.name=name
+		self.price=price
+	def __repr(self):
+		return repr((self.name,self.price))
+
+
+book1=Book('Master Python',500)
+book2=Book('Master Java',400)
+
+print(book1)
+print(book2)
+
+
+
+Note: 
+
+1.takes 0 positional arguments but 1 was given
+
+
+2.even dafault constructor and instance method atleast 1 parameter as self in python
+
+
+3.name should not matter but atleast 1 parameter must that is anything such as self or this
+
+
+
+Constructor overloading not there in the Python
+
+
+method overloading not there in the Python
+
+
+
+types of method parameters
+
+1.deafult parameter
+
+
+
+
+
+
+
+
+
+
+
+class Book:
+	def __intit__(self,name,price):
+		self.name=name
+		self.price=price
+	def __repr(self):
+		return repr((self.name,self.price))
+	
+	def increase_copies(self,how_much):
+		self.copies+=how_much
+
+	def decrease_copies(self,how_much):
+		self.copies-=how_much
+
+
+
+book1=Book('Master Python',500)
+boo1.increase_copies(50)
+
+book2=Book('Master Java',400)
+book2.decrease_copies(5)
+
+print(book1)
+print(book2)
+
+
+print(book1.increase_copies())
+print(book1.decrease_copies())
+
+
+
+
+
+
+
+
+
+strings are denoted with single quotes in python
+
+Strings are denoted with double quotes in java
+
+
+
+
+
+
+whenever declared variable then only we are able to assign value by using object in java(compile time creating variable)
+
+without declared variable also we are dynamically create variable and assign value in python(compile time and runtime creation of variable is possible)
+
+
+
+
+
+
+class Planet:
+	pass
+
+earth=Planet()
+mars=Planet()
+
+
+earth.name='Earth'
+earth.speed=10000
+
+print(earth.name)
+print(earth.speed)
+
+# mars.name='Mars'
+print(mars.name)
+
+
+
+
+
+
+
+
+class Planet:
+	def __init__(self,name,distance_from_sun):
+		self.name=name
+		self.distance_from_sun=distance_from_sun
+
+
+
+earth=Planet('Earth',200)
+mars=Planet('Mars',500)
+
+
+earth.speed=10000
+print(earth.speed)
+
+# mars.name='Mars'
+print(mars.name)
+
+
+
+for abstract class
+------------------
+
+from abc import ABC
+
+for abstract method
+-------------------
+
+from abc import abstractmethod
+ 
+
+
+ABC stands for Abstract Base Class
+---------------------------------------
+
+
+from abc import ABC, abstractmethod
+
+
+class AbstractRecipe(ABC):
+
+	@abstractmethod
+	def get_ready(self):
+		pass
+
+	
+
+
+
+
+
+
+
+module with single function import
+----------------------------------
+
+from math import floor
+
+
+only module import
+------------------
+
+import math
+
+
+module with all functions import
+--------------------------------
+
+from math import *
+
+
+
+
+
+Built in python modules
+-----------------------
+
+1.math
+2.statistics
+3.collections
+3.datetime
