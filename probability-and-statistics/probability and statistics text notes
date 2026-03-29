@@ -1,0 +1,53 @@
+I still remember struggling with hypothesis testing at the start.
+
+I knew the formulas. I could calculate z and t values.
+
+But if someone asked which test to use and why, I would pause.
+
+That changed when I stopped treating it like a formula topic and started seeing it as a simple decision process.
+
+This cheat sheet captures that flow really well.
+
+This is how I now think about it:
+
+→ Start with a question, not a formula
+Are you comparing means, checking relationships, or testing assumptions?
+
+→ Define H₀ and H₁ clearly
+If this step is weak, everything after it becomes confusing
+
+→ Pick the test based on data, not preference
+-Known variance, large sample → z-test
+-Unknown variance → t-test
+-Two categorical variables → chi-square
+-More than two groups → ANOVA
+
+→ Then comes calculation (this is the easy part)
+
+→ Final step is interpretation
+
+p-value is just a signal. You still need to explain what it means in context
+
+One thing I learned the hard way:
+
+Most errors don’t come from calculations
+
+They come from:
+-wrong test selection
+-ignoring assumptions
+-misreading p-values
+
+When I started working on real datasets and ML experiments, this became very practical:
+-Comparing two models → t-test
+-Checking if a feature is useful → chi-square
+-Running A/B tests → same concepts, just applied differently
+
+If you’re learning this right now, don’t rush to formulas.
+
+Take a few problems.
+
+Ask yourself: “What exactly am I trying to prove here?”
+
+That question alone clears up half the confusion.
+
+If this helped, save it for later and repost so others don’t struggle the way we did.
