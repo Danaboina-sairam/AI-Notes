@@ -51,3 +51,221 @@ Ask yourself: “What exactly am I trying to prove here?”
 That question alone clears up half the confusion.
 
 If this helped, save it for later and repost so others don’t struggle the way we did.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Types of data
+
+2. Measure of Central Tendency
+
+3. Measure of Dispersion
+
+4. Univariate Analysis for Categorical data
+
+5. Univariate Analysis for Numerical  data
+
+6. Bivariate Analysis Intro
+
+7. Quantiles and Percentiles
+
+8. 5 Number Summary 
+
+9. Covariance
+
+10. Correlation
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Central Limit Theorem
+
+2. Confidence Intervals
+
+3. Hypothesis Testing
+
+
+
+
+
+
+
+
+1. Random Variables
+
+2. Probability Distributions 
+
+3. Probability Mass Functions (PMF)
+
+4. Probability Density Function (PDF)
+
+5. Normal Distribution 
+
+6. Kurtosis:
+
+7. How to find the given distribution is normal or not?
+
+8. Non Gaussian Distribution 
+
+9. Transformation 
+
+10. Resources 
+
+
+
+Maximum Likelihood Estimation
+
+MLE for Discrete Random Variable
+
+MLE for Normal Distribution
+
+MLE in ML 
+
+MLE in Logistic Regression
+
+
+
+
+
+1. Basic Terms 
+
+2. Probability Distributions
+
+3. Random Variable Statistics 
+
+4. Prerequisites for types of probability 
+
+5. Types of Probability 
+
+6. Bayes Theorem 
+
+
+
+
+
+
+There are two ways you can do Hypothesis testing 
+
+1.Rejection Region Approach (basic level testing)
+2.P value approach 
+
+
+
+
+| Condition         | Test                        |
+| ----------------- | --------------------------- |
+| σ known (any n)   | Z-test                      |
+| σ unknown, n ≥ 30 | Z-test *(approx)* or T-test |
+| σ unknown, n < 30 | T-test                      |
+
+
+
+
+
+
+If you infer mean, median, … from population itʼs called parameter.
+
+Similarly, if you infer mean, median, … from sample itʼs called statistic or estimate.
+
+
+
+
+Type 1 Error ( False Positive )
+
+
+Type I error = Reject H0 when H0 is true.
+
+Type I error is denoted by α (alpha), which is also known as the significance level.
+
+
+
+
+
+
+
+ 
+Type 2 Error ( False Negative ) 
+
+
+Type II error = Fail to reject H0 when H0 is false.
+
+
+Type II error is denoted by β (beta)
+
+
+
+
+
+
+
+
+
+
+
+p-value took from z-table
+
+
+
+
+
+
+
+Numerical data
+
+1 or 2 groups
+-------------
+
+Z-test / T-test
+
+More than 2 groups
+------------------
+
+ANOVA
+
+
+
+
+
+Categorical data
+
+
+Chi-square test(F-test)
+
+
+
+
+
+
+
+
+| Type              | Factors       | Example             |
+| ----------------- | ------------- | ------------------- |
+| One-Way ANOVA     | 1             | Class A vs B vs C   |
+| Two-Way ANOVA     | 2             | Gender + Method     |
+| Repeated Measures | Same subjects | Before/After        |
+| Factorial ANOVA   | 2+ factors    | Gender + Age + Diet |
+
